@@ -39,8 +39,6 @@
 #import <Parse/PFUser+Synchronous.h>
 #import <Parse/PFUser+Deprecated.h>
 #import <Parse/PFUserAuthenticationDelegate.h>
-#import <Parse/PFFileUploadResult.h>
-#import <Parse/PFFileUploadController.h>
 
 #if TARGET_OS_IOS
 
@@ -109,7 +107,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  The current client key that was used to configure Parse framework.
  */
-+ (nullable NSString *)getClientKey;
++ (NSString *)getClientKey;
 
 ///--------------------------------------
 #pragma mark - Enabling Local Datastore
